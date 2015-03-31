@@ -32,4 +32,18 @@ describe('Plugin', function() {
       done();
     });
   });
+
+
+  it('should compile and produce valid result', function(done) {
+
+    var content = 'let a = 1';
+
+    plugin.compile({
+      data: content,
+      path: 'file.js'
+    }, function(error, result) {
+      assert(!error);
+      done();
+    });
+  });
 });
