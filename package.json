@@ -1,6 +1,6 @@
 {
   "name": "brunch-es6-transpiler",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0-beta",
   "description": "brunch plugin for es6 transpiler",
   "bugs": {
     "url": "yashprit/brunch-es6-transpiler/issues"

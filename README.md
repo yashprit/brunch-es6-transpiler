@@ -1,6 +1,6 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# [brunch](https://github.com/brunch/brunch)-es6-transpiler [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> brunch plugin for es6 transpiler
+> brunch plugin for transpile ES6 to ES5 [es6-transpiler](https://github.com/termi/es6-transpiler)
 
 
 ## Install
@@ -9,19 +9,13 @@
 $ npm install --save brunch-es6-transpiler
 ```
 
-
-## Usage
-
-```js
-var brunch-es6-transpiler = require('brunch-es6-transpiler');
-
-brunch-es6-transpiler('Rainbow');
+## Run Test
+```sh
+npm test
 ```
 
-
-##Report Issue 
-[issue-url]
-
+## Contribute or Report Issue
+For bugs and feature requests, [please create an issue][issue-url].
 
 ## License
 
