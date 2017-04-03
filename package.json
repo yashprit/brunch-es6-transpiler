@@ -1,14 +1,14 @@
 {
   "name": "brunch-es6-transpiler",
-  "version": "0.0.0-beta",
+  "version": "0.0.1",
   "description": "brunch plugin for es6 transpiler",
   "bugs": {
     "url": "yashprit/brunch-es6-transpiler/issues"
   },
   "author": {
-    "url": "yashprit.github.io",
+    "url": "yashprit.com",
     "name": "Yashprit",
-    "email": "yashprit@gmail.com"
+    "email": "yashprit@yashprit.com"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "es6-transpiler": "^0.7.18"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha"
